@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feser's Neighborhood Map</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a  onclick="toggleNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+        </div>
+    </header>
+    <nav id="sidenav" class="sidenav">
+        <input type="text" name="search" data-bind="value: search, valueUpdate: 'keyup'">
+        <input type="submit" name="filter" value="Search">
+        <ul id="location-list" data-bind="foreach: locationList">
+        <li data-bind="'click': function(){ selectLocation($data);}">
+            <span data-bind="text: $data.title"></span>
+        </li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="map"></div>
+    </div>
+    <script src="js/lib/jquery-3.2.1.min.js"></script>
+    <script src="js/lib/knockout-3.4.2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script onerror="onGoogleMapsAPIError()" async defer src=
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyC4VlmUzUu7Z_hw8mzPmJ3izR8Ih3H_maU&v=3&callback=initMap">
+    </script>
+</body>
+</html>

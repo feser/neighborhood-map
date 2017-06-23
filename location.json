@@ -1,0 +1,41 @@
+ {
+        title: 'Amsterdam Museum',
+        location: {lat: 52.37014, lng: 4.889902}
+    },
+    {
+        title: 'NEMO Science Museum',
+        location: {lat: 52.3742274, lng: 4.9121498}
+    },
+    {
+        title: 'Hash Museum',
+        location: {lat: 52.3717838, lng: 4.894731}
+    },
+    {
+        title: 'Melkweg',
+        location: {lat: 52.3647893, lng: 4.881}
+    },
+    {
+        title: 'Royal Palace Amsterdam',
+        location: {lat: 52.3733063, lng: 4.8915}
+    },
+    {
+        title: 'Royal Theatre Carre',
+        location: {lat: 52.3623905, lng: 4.904}
+    },
+    {
+        title: 'Stopera',
+        location: {lat: 52.3674965, lng: 4.902}
+    },
+    {
+        title: 'Rijksmuseum Amsterdam',
+        location: {lat: 52.3599976, lng: 4.885}
+    },
+    {
+        title: 'Hermitage Amsterdam',
+        location: {lat: 52.3652, lng: 4.9025}
+    },
+    {
+        title: 'Van Gogh Museum',
+        location: {lat: 52.358, lng: 4.881}
+    }
+}
